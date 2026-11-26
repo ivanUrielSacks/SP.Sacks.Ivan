@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.60"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="Controladores.AltoPresupuestoController"
+      spacing="10" prefWidth="500" prefHeight="400">
+    <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+
+    <Label text="Misiones con presupuesto &gt; 100 millones" 
+           style="-fx-font-weight: bold;"/>
+
+    <TextArea fx:id="txtContenido" 
+              VBox.vgrow="ALWAYS" 
+              editable="false"/>
+
+    <Button text="Cerrar" onAction="#cerrar"/>
+</VBox>

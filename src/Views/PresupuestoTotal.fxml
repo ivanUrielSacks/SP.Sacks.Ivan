@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.60"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="Controladores.PresupuestoTotalController"
+      spacing="10" prefWidth="400" prefHeight="200" alignment="CENTER">
+    <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+    <Label text="Presupuesto total de todas las misiones:" style="-fx-font-weight: bold;"/>
+    <Label fx:id="lblTotal" text="0.0" style="-fx-font-size: 24px;"/>
+    <Button text="Cerrar" onAction="#cerrar"/>
+</VBox>

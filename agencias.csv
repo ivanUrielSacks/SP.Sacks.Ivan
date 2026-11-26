@@ -1,0 +1,7 @@
+id,nombre,pais,anioFundacion,email
+1,NASA,Estados Unidos,1958,contacto@nasa.example
+2,ESA,Multinacional(Europa),1975,contacto@esa.example
+3,CONAE,Argentina,1991,contacto@conae.example
+4,JAXA,Japon,2003,contacto@jaxa.example
+5,Roscosmos,Rusia,1992,contacto@roscosmos.example
+6,ISRO,India,1969,contacto@isro.example
