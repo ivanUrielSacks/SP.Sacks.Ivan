@@ -1,5 +1,5 @@
 
-package ParcialProgra2;
+package SP.Sacks.Ivan;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
